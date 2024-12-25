@@ -1,0 +1,26 @@
+2024-12-24T17:26:19+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "a" in C:\xampp\htdocs\hatdieu\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php:170
+Stack trace:
+#0 C:\xampp\htdocs\hatdieu\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php(170): sprintf('Search %a', 'Widget Areas')
+#1 C:\xampp\htdocs\hatdieu\wp-includes\class-wp-hook.php(324): Woo_Sidebars->register_post_type('')
+#2 C:\xampp\htdocs\hatdieu\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\hatdieu\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\hatdieu\wp-settings.php(704): do_action('init')
+#5 C:\xampp\htdocs\hatdieu\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hatdieu\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\hatdieu\wp-login.php(12): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\hatdieu\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php on line 170
+
+2024-12-24T17:30:18+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "a" in C:\xampp\htdocs\hatdieu\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php:170
+Stack trace:
+#0 C:\xampp\htdocs\hatdieu\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php(170): sprintf('Search %a', 'Widget Areas')
+#1 C:\xampp\htdocs\hatdieu\wp-includes\class-wp-hook.php(324): Woo_Sidebars->register_post_type('')
+#2 C:\xampp\htdocs\hatdieu\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\hatdieu\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\hatdieu\wp-settings.php(704): do_action('init')
+#5 C:\xampp\htdocs\hatdieu\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hatdieu\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\hatdieu\wp-login.php(12): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\hatdieu\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php on line 170
+
